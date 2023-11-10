@@ -3,7 +3,7 @@ public class Ejercicio12 {
         int num1 = 1;
         int suma, num2 = 0;
         int i = 0;
-        System.out.println("Introduce la cantidad de números de la sucesión de Fibonacci quieres ver");
+        System.out.print("Introduce la cantidad de números de la sucesión de Fibonacci quieres ver: ");
         int n = Integer.parseInt(System.console().readLine());
         do {
             suma = num1+num2;
