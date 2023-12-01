@@ -7,16 +7,17 @@ public class Ejercicio19 {
         int planta=1;
         int longitudDeLinea=1;
         int espacios = altura-1;
-        while (planta<=altura) {
-            for (int i=1; i<=espacios; i++) {
+        while (planta<altura) {
+            for (int i=1; i<=espacios; i++){
                 System.out.print(" ");
             }
-            for (int i=1; i<=longitudDeLinea; i++) {
-                System.out.print(caracter);
+            for (int i=1; i<=longitudDeLinea; i++){
+                System.out.print("*");
             }
-            System.out.println(" ");
-            planta++;
+            System.out.println("");
+
             espacios--;
+            planta++;
             longitudDeLinea+=2;
         }
     }

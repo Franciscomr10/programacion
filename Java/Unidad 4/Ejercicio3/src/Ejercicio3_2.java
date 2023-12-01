@@ -17,9 +17,6 @@ public class Ejercicio3 {
             System.out.println("Sábado");
         } else if (dia==7) {
             System.out.println("Domingo");
-        } else {
-            System.out.println("No has introducido un día válido");
         }
-
     }
 }
